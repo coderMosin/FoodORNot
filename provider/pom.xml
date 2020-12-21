@@ -18,41 +18,23 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!--dubbo-->
+        <!-- dubbo -->
         <dependency>
             <groupId>org.apache.dubbo</groupId>
-            <artifactId>dubbo</artifactId>
-            <version>2.7.3</version>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>2.7.8</version>
         </dependency>
 
-        <!--zookeeper-->
-        <dependency>
-            <groupId>org.apache.zookeeper</groupId>
-            <artifactId>zookeeper</artifactId>
-            <version>3.5.5</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-log4j12</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+        <!-- zk -->
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-framework</artifactId>
-            <version>4.2.0</version>
-            <type>pom</type>
+            <version>5.1.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.curator</groupId>
             <artifactId>curator-recipes</artifactId>
-            <version>4.2.0</version>
-            <type>pom</type>
-        </dependency>
-        <dependency>
-            <groupId>com.101tec</groupId>
-            <artifactId>zkclient</artifactId>
-            <version>0.10</version>
+            <version>5.1.0</version>
         </dependency>
 
         <!--api模块-->
