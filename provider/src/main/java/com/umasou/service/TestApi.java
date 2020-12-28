@@ -1,9 +1,9 @@
 package com.umasou.service;
 
 import com.umasou.ITestApi;
-import org.apache.dubbo.config.annotation.Service;
+import org.apache.dubbo.config.annotation.DubboService;
 
-@Service
+@DubboService
 public class TestApi implements ITestApi {
 
     @Override
