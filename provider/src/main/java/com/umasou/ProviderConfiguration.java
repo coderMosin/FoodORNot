@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@EnableDubbo(scanBasePackages = "com.umasuo.service")
+@EnableDubbo(scanBasePackages = "com.umasou.service")
 @PropertySource("classpath:/provider.properties")
 public class ProviderConfiguration {
 
